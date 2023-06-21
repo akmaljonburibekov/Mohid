@@ -1,0 +1,439 @@
+
+
+/* POPPINS START */
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* POPPINS END */
+
+  /* INTER FONT START*/
+
+  /* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* INTER END */
+
+
+    /* STANDART STYLE START */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    height: 100vh;
+  }
+
+  body {
+    height: 100vh;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+    /* STANDART STYLE END */
+
+    /* HEADER START */
+.header {
+    width: 100%;
+    max-width: 1500px;
+    height: 877px;
+    padding-bottom: 142px;
+    background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+}
+
+.nav-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper__icon-whatch {
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+}
+
+.apple-watch {
+  margin-top: 0;
+}
+
+.nav-text {
+  font-family: 'Poppins', 'San-serif';
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav-list {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.nav-link {
+  font-family: 'Poppins', 'San-serif';
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav-wrapper__icons{
+  width: 100%;
+  max-width: 100px;
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-image {
+  padding-left: 2px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.hero {
+  display: flex;
+  margin-top: 174px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 457px;
+  margin-bottom: 47px;
+}
+
+.hero-title {
+  font-family: 'Poppins', 'San-serif';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80.32px;
+  color: #ffffff;
+}
+
+.hero-text {
+  font-family: 'Poppins', 'San-serif';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #8B8E99;
+}
+
+.hero-input_search {
+  width: 100%;
+  max-width: 443px;
+  margin-top: 15px;
+}
+
+.hero-input {
+  width: 100%;
+  width: 443px;
+  height: 60px;
+  margin-top: 47px;
+  padding: 19px 86px 20px 56px;
+  font-family: 'poppins', 'san-serif';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 125.5px;
+
+  border-radius: 15px;
+}
+
+.hero-image {
+  margin-left: 134px;
+  margin-top: -50px;
+}
+/* HEADER END */
+
+
+/* MAIN START */
+/* SECTION START */
+
+.section-brend {
+  display: flex;
+  margin-top: 73px;
+}
+.section-brend__watch {
+  width: 100%;
+  max-width: 354px;
+  display: flex;
+  align-items: center;
+  padding-left: 41px;
+  padding-top: 46px;
+  padding-right: 29px;
+  padding-bottom: 44.74px;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+}
+
+.section-brend__watch:not(:last-child){
+  margin-right: 20px;
+}
+
+.section-brend__description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  margin-left: 26px; 
+}
+
+.section-brend__title {
+  font-family: 'inter', 'san-serif';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #1E1D1D;
+}
+
+.section-brend__text {
+  font-family: 'inter', 'san-serif';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #8B8E99;
+}
+
+.section-product {
+  text-align: center;
+  margin-top: 135px;
+  
+}
+
+.section-product__text {
+  font-family: 'inter', 'san-serif';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #3858D6;
+}
+
+.section-product__title {
+  font-family: 'inter', 'san-serif';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #1E1D1D;
+  margin-top: 10px;
+}
+
+
+
+/* SECTION PRODUCT START */
+
+.section-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; 
+}
+
+.section-product__description {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  margin-top: 135px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-brend__watch {
+  width: 100%;
+  max-width: 334px;
+  height: 337px;
+}
+.section-product_images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-product_image {
+  width: 100%;
+  max-width: 334px;
+  height: 337px;
+  border-radius: 0;
+}
+
+.section-brend__title {
+  margin-top: 11px;
+  font-family: 'poppins', 'san-serif';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #1E1D1D;
+}
+/* SECTION PRODUCT END */
+
+
+
+.section-product__price {
+  display: flex;
+  align-items: center;
+}
+
+.section-brend__price-discount {
+  padding-top: 4px;
+  margin-right: 5px;
+  font-family: 'poppins', 'san-serif';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120.5%;
+  color: #8B8E99;
+}
+
+.section-brend__price {
+  margin-top: 5px;
+  margin-right: 5px;
+  font-family: 'poppins', 'san-serif';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120.5%;
+  color: #000000;
+}
+
+/* SECTION BUTTON START */
+.section-btn {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.section-button {
+  width: 196px;
+  height: 46px;
+  padding: 9px 7px 10px 5px;
+  margin-top: 69px;
+  background-color:#3858D6;
+  color: #ffffff;
+  font-family: 'poppins', 'san-serif';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  border-radius: 15px;
+}
+/* SECTION BUTTON END */
+
+/* SECTION ABOUT START */
+.section-about_us {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: 47px;
+}
+
+.section-about_left {
+  width: 100%;
+  max-width: 524px;
+  padding: 30px 42px 30px 34px;
+  display: flex;
+  background-color: #F6F6F6;
+  border-radius: 22px;
+}
+
+.section-about_right {
+  width: 100%;
+  max-width: 530px;
+  padding: 30px 38px 30px 34px;
+  display: flex;
+  background-color: #F6F6F6;
+  border-radius: 22px;
+}
+
+.section-about__description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-right: 42.69;
+  padding-left: 26.72px;
+}
+
+.section-about-title{
+  font-family: 'inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.section-about-text {
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 13px;
+}
+/* SECTION ABOUT END */
+
+/* SECTION END */
+/* MAIN END */
